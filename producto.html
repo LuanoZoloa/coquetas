@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top Fleco Chocolate — Coqueta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500;1,9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav-overlay"></div>
+
+<header class="site-header solid">
+  <div class="wrap">
+    <a href="index.html" class="logo-mark">
+      <span class="diamond"></span>
+      <span class="logo-word">Coqueta</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="categoria.html">Catálogo</a>
+      <a href="filosofia.html">Nosotras</a>
+      <a href="carrito.html">Carrito</a>
+    </nav>
+    <div class="header-icons">
+      <button class="icon-btn" aria-label="Buscar">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </button>
+      <a href="carrito.html" class="icon-btn" aria-label="Carrito">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M6 7h15l-1.5 9.5a2 2 0 0 1-2 1.7H8.7a2 2 0 0 1-2-1.7L5 4H2"/><circle cx="9" cy="21" r="1"/><circle cx="17" cy="21" r="1"/></svg>
+        <span class="cart-count">0</span>
+      </a>
+      <button class="menu-toggle" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="product-layout">
+
+    <div class="gallery">
+      <div class="gallery-main">
+        <img id="galleryMain" src="img/product/top-fringe-choco_front.jpg" alt="Top Fleco Chocolate — Coqueta">
+      </div>
+      <div class="gallery-thumbs" style="grid-template-columns:repeat(3,1fr);">
+        <button type="button" class="active"><img src="img/product/top-fringe-choco_front.jpg" alt="Frente"></button>
+        <button type="button"><img src="img/product/top-fringe-choco_pose.jpg" alt="Vista alternativa"></button>
+        <button type="button"><img src="img/product/top-fringe-choco_back.jpg" alt="Espalda con lazo"></button>
+      </div>
+    </div>
+
+    <div class="product-panel">
+      <div class="breadcrumb" style="margin-bottom:20px;"><a href="index.html">Inicio</a> / <a href="categoria.html">Tops</a> / Top Fleco Chocolate</div>
+      <div class="p-detail-code">COQ-FLECO-CHOC</div>
+      <h1 class="p-detail-title">Top Fleco Chocolate</h1>
+      <div class="p-detail-price">$34.000</div>
+
+      <div class="option-block">
+        <h5>Color: <span id="selectedColor">Chocolate</span></h5>
+        <div class="color-options">
+          <div class="color-swatch active" data-color="Chocolate" style="background:#3f1e15;" title="Chocolate"></div>
+          <div class="color-swatch" data-color="Negro" style="background:#1a1512;" title="Negro"></div>
+        </div>
+      </div>
+
+      <div class="option-block">
+        <h5>Talle <a href="#" class="size-guide-link">Guía de talles</a></h5>
+        <div class="size-options">
+          <div class="size-pill">XS</div>
+          <div class="size-pill active">S</div>
+          <div class="size-pill">M</div>
+          <div class="size-pill">L</div>
+          <div class="size-pill disabled">XL</div>
+        </div>
+      </div>
+
+      <div class="option-block">
+        <h5>Cantidad</h5>
+        <div class="qty-stepper">
+          <button type="button" id="qtyMinus">−</button>
+          <span id="qtyDisplay">1</span>
+          <button type="button" id="qtyPlus">+</button>
+        </div>
+      </div>
+
+      <div class="cta-row">
+        <button class="btn btn-primary" id="addToCartBtn"
+          data-id="coq-fleco-choc"
+          data-name="Top Fleco Chocolate"
+          data-price="34000"
+          data-img="img/product/top-fringe-choco_front.jpg">
+          Agregar al carrito
+        </button>
+        <a class="btn btn-wa" href="https://wa.me/5492262000000?text=Hola%2C%20quiero%20consultar%20por%20el%20Top%20Fleco%20Chocolate%20COQ-FLECO-CHOC" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4 8.5 8.5 0 0 1-3.8-.9L3 20l1-5.3a8.4 8.4 0 0 1-1-4A8.4 8.4 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg>
+          Consultar
+        </a>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion-item open">
+          <button class="accordion-head">Descripción<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="accordion-body" style="max-height:220px;">
+            <p>Top strapless con terminación de flecos macramé en la cintura y lazo ajustable en la espalda. Tela con caída suave, ideal para combinar con jean o pantalón wide. Diseñado en Necochea.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-head">Materiales<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="accordion-body">
+            <ul>
+              <li>95% viscosa / 5% elastano</li>
+              <li>Flecos de macramé cosidos a mano</li>
+              <li>Ajuste con lazo trasero</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-head">Cuidados<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="accordion-body">
+            <ul>
+              <li>Lavado a mano, agua fría</li>
+              <li>No usar blanqueador</li>
+              <li>Secar a la sombra, no retorcer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section-head reveal related-heading">
+    <h2>También te<br>puede interesar</h2>
+  </div>
+  <div class="product-grid" style="padding-bottom:110px;">
+    <a href="producto.html" class="product-card reveal">
+      <div class="product-media">
+        <img class="img-a" src="img/product/blusa-mesh-choco_front.jpg" alt="Blusa mesh volados chocolate">
+        <img class="img-b" src="img/product/blusa-mesh-choco_back.jpg" alt="Blusa mesh chocolate, espalda">
+      </div>
+      <div class="product-info">
+        <div class="p-name">Blusa Mesh Volados</div>
+        <div class="p-cat">Blusas — Chocolate</div>
+        <div class="p-price">$29.500</div>
+      </div>
+    </a>
+    <a href="producto.html" class="product-card reveal">
+      <div class="product-media">
+        <img class="img-a" src="img/product/top-encaje-blanco_front.jpg" alt="Top de encaje blanco">
+        <img class="img-b" src="img/product/blusa-lace-blanca_front.jpg" alt="Blusa lace blanca">
+      </div>
+      <div class="product-info">
+        <div class="p-name">Top Encaje Zip</div>
+        <div class="p-cat">Tops — Blanco</div>
+        <div class="p-price">$26.000</div>
+      </div>
+    </a>
+    <a href="producto.html" class="product-card reveal">
+      <div class="product-media">
+        <img class="img-a" src="img/product/top-offshoulder-negro_front.jpg" alt="Blusón off-shoulder negro">
+        <img class="img-b" src="img/product/top-mesh-mono-negro_front.jpg" alt="Top mesh moño negro">
+      </div>
+      <div class="product-info">
+        <div class="p-name">Blusón Off-Shoulder</div>
+        <div class="p-cat">Tops — Negro</div>
+        <div class="p-price">$31.000</div>
+      </div>
+    </a>
+    <a href="producto.html" class="product-card reveal">
+      <div class="product-media">
+        <img class="img-a" src="img/product/blazer-negro-cami_front.jpg" alt="Conjunto blazer y musculosa">
+        <img class="img-b" src="img/product/vestido-brillo-negro_front.jpg" alt="Vestido asimétrico negro">
+      </div>
+      <div class="product-info">
+        <div class="p-name">Blazer Oversize</div>
+        <div class="p-cat">Sacos — Negro</div>
+        <div class="p-price">$48.000</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo-mark">
+          <span class="diamond"></span>
+          <span class="logo-word">Coqueta</span>
+        </a>
+        <p>Indumentaria femenina. Local y envíos desde Necochea, Argentina.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Tienda</h5>
+        <ul>
+          <li><a href="categoria.html">Catálogo</a></li>
+          <li><a href="index.html#colecciones">Nueva temporada</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Ayuda</h5>
+        <ul>
+          <li><a href="#">Cambios y devoluciones</a></li>
+          <li><a href="#">Guía de talles</a></li>
+          <li><a href="#">Preguntas frecuentes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-form">
+        <h5>Newsletter</h5>
+        <input type="email" placeholder="Tu email">
+        <a href="#" class="btn btn-outline on-dark btn-full">Suscribirme</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Coqueta. Todos los derechos reservados.</span>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/coquetamoda/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4 8.5 8.5 0 0 1-3.8-.9L3 20l1-5.3a8.4 8.4 0 0 1-1-4A8.4 8.4 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
