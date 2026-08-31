@@ -153,22 +153,7 @@ p{line-height:1.7;color:var(--gray-400);font-size:15px;}
 }
 
 .logo-mark{display:flex;align-items:center;gap:9px;}
-.logo-mark img{width:22px;height:auto;object-fit:contain;display:block;}
-.logo-mark .logo-word{
-  font-family:var(--font-display);
-  font-style:italic;
-  font-size:19px;font-weight:600;
-  letter-spacing:0;
-}
-.logo-mark .logo-word small{
-  display:block;
-  font-family:var(--font-body);
-  font-size:8.5px;font-weight:500;
-  letter-spacing:.18em;
-  color:var(--gray-400);
-  text-transform:uppercase;
-  margin-top:1px;
-}
+.logo-mark img{width:42px;height:42px;object-fit:contain;display:block;border-radius:50%;}
 
 .main-nav{display:flex;gap:38px;}
 .main-nav a{
@@ -315,17 +300,23 @@ section{padding:120px 0;}
 .product-card:hover .img-b{opacity:1;}
 .product-card:hover .img-a{opacity:0;}
 .product-badge{
-  position:absolute;top:14px;left:14px;background:var(--black);color:var(--white);
-  border:1px solid var(--line);border-radius:999px;
+  position:absolute;top:14px;left:14px;background:var(--white);color:var(--black);
+  border:none;border-radius:999px;box-shadow:0 2px 8px rgba(43,26,20,.18);
   font-size:9px;letter-spacing:.14em;text-transform:uppercase;padding:6px 10px;font-weight:600;
 }
 .wishlist-btn{
   position:absolute;top:12px;right:12px;width:32px;height:32px;border-radius:50%;
-  background:rgba(43,26,20,.55);border:1px solid rgba(247,241,234,.3);
-  display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .3s var(--ease);
+  background:rgba(43,26,20,.72);border:1px solid rgba(247,241,234,.4);
+  box-shadow:0 2px 8px rgba(43,26,20,.18);
+  display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .3s var(--ease), background-color .2s var(--ease);
 }
 .product-card:hover .wishlist-btn{opacity:1;}
+.wishlist-btn:hover{background:rgba(43,26,20,.88);}
 .wishlist-btn svg{width:14px;height:14px;stroke:var(--on-photo);}
+/* Touch devices have no hover — keep controls visible instead of hidden-until-hover */
+@media (hover:none){
+  .wishlist-btn{opacity:1;}
+}
 
 .product-info{padding:16px 4px 8px;}
 .product-info .p-name{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;color:var(--white);}
