@@ -27,9 +27,9 @@
   --on-photo-muted:rgba(247,241,234,.82);
   --scrim:rgba(43,26,20,.85);   /* dark photo-overlay gradient color, was rgba(10,10,9,*) */
 
-  --font-display:'Fraunces', 'Georgia', serif;
+  --font-display:'Playfair Display', 'Georgia', serif;
   --font-body:'Work Sans', 'Inter', sans-serif;
-  --font-brand:'Fraunces', 'Georgia', serif;
+  --font-brand:'Playfair Display', 'Georgia', serif;
 
   --container:1180px;
   --gutter:32px;
